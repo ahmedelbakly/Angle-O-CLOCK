@@ -1,0 +1,135 @@
+body {
+  background: rgb(1, 0, 8);
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 3, 16);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: rgb(2, 80, 168) solid 15px;
+  position: relative;
+  box-shadow:  2px 2px 20px 5px rgb(232 98 98);
+  display: flex;
+}
+.clock {
+  position: absolute;
+  color: rgb(250, 248, 249);
+  font-size: 19px;
+}
+
+/* /////////////////////////////////////////////////// */
+.one {
+  top: calc(100% / 12);
+  left: 70%;
+}
+
+.eleven {
+  top: calc(100% / 12);
+  right: 70%;
+}
+
+.two {
+  top: calc((100% / 12) * 3);
+  left: 87%;
+}
+
+.ten {
+  top: calc((100% / 12) * 3);
+  right: 83%;
+}
+
+.three {
+  top: calc((94% / 12) * 6);
+  right: 5px;
+}
+
+.nine {
+  top: calc((94% / 12) * 6);
+  left: 5px;
+}
+
+/* /////////////////////////////// */
+.four {
+  bottom: calc((88% / 12) * 3);
+  left: 86%;
+}
+
+.eight {
+  bottom: calc((88% / 12) * 3);
+  right: 87%;
+}
+
+.five {
+  bottom: calc((100% / 12));
+  left: 70%;
+}
+
+.seven {
+  bottom: calc((100% / 12) * 1);
+  right: 70%;
+}
+
+.six {
+  bottom: 5px;
+  right: 47%;
+}
+
+.twelve {
+  top: 5px;
+  right: 46%;
+}
+
+.center {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: solid black 3px;
+  margin: auto;
+  position: relative;
+  background: rgb(253, 2, 2);
+}
+
+.hand {
+  position: absolute;
+  right: 50%;
+  transform-origin: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: rgb(253, 2, 2);
+}
+
+.hour {
+  width: 40px;
+  top: 25%;
+  height: 6px;
+}
+
+.minutes {
+  width: 50px;
+  height: 4px;
+  top: 50%;
+}
+
+.second {
+  width: 60px;
+  height: 2px;
+  top: 60%;
+}
